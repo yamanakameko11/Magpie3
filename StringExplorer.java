@@ -1,4 +1,4 @@
-package activity3;
+ 
 
 /**
  * A program to allow students to try out different 
@@ -23,6 +23,11 @@ public class StringExplorer
 		System.out.println ("After toLowerCase(), sample = " + sample);
 		
 		//  Try other methods here:
+		int notFoundPen = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPen);
+		
+		int indexOf = sample.indexOf("quick", 2);
+		System.out.println("sample.indexOf(\"quick\", 7) = " + indexOf);
 
 	}
 
